@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+
+body {
+	margin: 0;
+	direction: rtl;
+	font-family: 'Cairo', sans-serif;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+* a {
+	font-family: 'Cairo', sans-serif;
+
+}
+/*
+header div.model-wrapper{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,00.5);
+	display:none;
+}
+header div.model-content{
+	margin:0 auto;
+	width: 50%;
+    transition: all .5s ease;
+}
+header div.model-content img{
+	width:100%
+}
+*/
+
+
+header div.slider {
+	width: 100%;
+	height: 600px;
+	background: url("../images/slide-amount-2.jpg") no-repeat;
+	background-size: cover;
+	color: #fff;
+	position: relative;
+}
+
+header div.slider div.social{
+	position:fixed;
+	top:30%;
+	left:-3px;
+	background:#FFF;
+	border-radius:5px;
+}
+header div.slider div.social>i{
+	display: block;
+	margin:20px 10px;
+	font-size:20px;
+	color:#555;
+}
+
+header div.slider img {
+	padding-left: 20px;
+		float: right;
+
+}
+
+div.slider u1#menu {
+	list-style: none;
+
+}
+
+div.slider u1#menu li {
+	margin-top: 50px;
+	padding: 0 20px;
+	display: inline;
+		float: right;
+	 
+
+
+}
+
+div.slider u1#menu li a {
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
+header div.slider  div#btn-wrapper {
+	margin-right: 70px;
+	padding: 15px;
+	display: inline;
+
+}
+
+
+header div.slider div.text {
+	margin: 50px 100px;
+	text-align: right;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+header div.slider div.text p#colorp {
+	color: #e0a800;
+	font-weight: bold;
+}
+
+header div.slider div.text button,header div.slider  div#btn-wrapper  button.btn ,header div.slider  div#btn-wrapper  a {
+	background: #e0a800;
+	border-radius: 13em;
+	color: #fff;
+	font-family: 'Cairo', sans-serif;
+	max-height: 50px;
+	border: none;
+}
+header div.slider  div#btn-wrapper  button.btn ,header div.slider  div#btn-wrapper  a{
+	padding:10px 20px;
+	margin-top:40px;
+	font-size: 17px;
+
+}
+header div.slider  div#btn-wrapper  button#log{
+    background: none;
+	border:1px solid #fff;
+	
+}
+header div.slider  div#btn-wrapper  button#new{
+	background:#f14f27;
+
+} 
+
+header div.slider  div#btn-wrapper  a{text-decoration: none;}
+header div.slider  div#btn-wrapper  a:hover{text-decoration:underline;}
+
+
+header div.slider div.text button{
+	padding: 5px 50px;
+		box-shadow: 0 0 0 5px rgba(230, 168, 43, .4);
+
+}
+header div.slider div#selector {
+	width: 70%;
+	height: 60px;
+	box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	position: absolute;
+	right: 15%;
+	bottom: 5%;
+	background: #fff;
+	color: #333;
+	padding: 10px;
+	font-size: 18px;
+
+}
+
+header div.slider div#selector form {
+	margin-right: 10%;
+		padding-top:8px;
+}
+
+header div.slider div#selector select {
+	padding: 5px;
+	margin: 5px 15px;
+	width: 150px;
+	text-align: center;
+	color: #333;
+	font-family: 'Cairo', sans-serif;
+	font-size: 18px;
+
+}
+
+header div.slider div#selector input[type="checkbox"] {
+	height: 20px;
+	width: 20px;
+	border-radius: 3px;
+
+}
+
+header div.slider div#selector input[type="submit"] {
+	margin: 0 40px;
+	box-sizing: border-box;
+	background: #e0a800;
+	padding: 5px 30px;
+	color: #fff;
+	font-family: 'Cairo', sans-serif;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+}
+
+
+main * p {
+	color: #888585;
+}
+
+main div.train,
+main div.available, main div#que,main div#watch {
+	margin: 20px;
+
+}
+
+main div.train h2,
+main div.available h2 {
+	display: inline;
+	margin-top: 10px;
+}
+
+main div.train h2 span,
+main div.available h2 span,main div#que h2 span ,main div#watch h2 span {
+	color: #56acaf;
+}
+
+main div.train a#pro,
+main div.available a#pro {
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 20px 30px;
+	background: #138496;
+	float: left;
+	border-radius: 5px;
+	line-height: 10px;
+}
+
+main div.train div.part,
+main div.train div.part div.font div,
+main div.available div.horse div.hor {
+	display: inline;
+	float: right;
+	box-sizing: border-box;
+
+
+}
+
+main div.train div.part,
+main div.available div.horse div.hor,
+main div#mont div.details {
+	width: 20%;
+	border-radius: 5px;
+	margin: 20px;
+	border: 1px solid #eee;
+
+
+}
+
+main div.train div.part img,
+main div.available div.horse div.hor img {
+	width: 100%;
+}
+
+main div.train div.part h5,
+main div.train div.part > p {
+	padding: 10px;
+}
+
+main div.train div.part > a {
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	background: #f46b5d;
+	float: left;
+	margin-left: 5px;
+	padding: 0px 20px;
+
+}
+
+main div.train div.part > span {
+	color: #f46b5d;
+	font-size: 18px;
+}
+
+main div.train div.part div.font div {
+	margin-top: 10px;
+	width: 33.333%;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+
+}
+
+main div.back {
+	background: url("../images/Slide3.jpg");
+	background-position: cover;
+	background-position: center;
+}
+
+main div.app {
+	height: 300px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	text-align: center;
+	margin: 80px 0;
+}
+
+main div.app div#phone {
+	float: right;
+	margin: -50px 0;
+}
+
+main div.app div#download {
+	display: inline;
+	float: left;
+	margin-left: 10%;
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+main div.available {
+	margin: 60px;
+}
+
+main div.available div.horse div.hor {
+	padding: 20px;
+	width: 28%;
+	box-sizing: border-box;
+
+}
+
+main div.available div.horse div.hor p {
+	color: #555;
+}
+
+main div#mont {
+	background: #f7f7f7;
+	text-align: center;
+
+}
+
+main div#mont {
+	padding: 20px;
+}
+
+main div#mont h2 > span {
+	color: #56adaf;
+}
+
+main div#mont div.details {
+	display: inline;
+	float: right;
+	padding: 10px;
+}
+
+main div#mont div.details > img {
+	border: 1px solid #f7f7f7;
+	border-radius: 50%;
+	padding: 10px;
+
+}
+
+main div#mont div.details > img#im1 {
+	background: #21365f;
+}
+
+main div#mont div.details > img#im2 {
+	background: #56adaf;
+}
+
+main div#mont div.details > img#im3 {
+	background: #f14f27;
+}
+
+main div#mont div.details > img#im4 {
+	background: #f3942e;
+}
+main div#info div.container >div{
+	width:45%;
+	display:inline;
+	height: 600px;
+}
+main div#info div#que{
+	float:right;
+/*		margin-bottom:10px;*/
+        float:right
+}
+main div#info div#que div#dep h4>button{
+		color: #888585;
+         border:none;
+	padding: 15px 200px;
+	background: none;
+	font-weight:bold;
+	text-align:right;
+	min-width: 200px;
+}
+main div#info div#que div#dep div.main-card{
+	border:1px solid #ddd;
+	border-top: none;
+	margin:0;
+	padding-right:5px;
+	display:none;
+}
+main div#info div#que div#dep div.sol1 div.main-card{
+	display: block;
+}
+
+main div#info div#que div#dep  h4 > button#b{
+	background: #55acae;
+	color:#fff;
+}
+main div#info div#watch{
+	float:left;
+	
+}
+
+main div#info div#watch div#picture div.p{
+	display:inline;
+	width:23%;
+	float:right;
+
+}
+main div#info div#watch div#picture div.p >img{
+	width:90%;
+	height:100px;
+	margin-left:10px;
+	
+}
+main div#photo {
+	margin: 0px 70px 30px;
+}
+
+main div#photo > img {
+	width: 23%;
+	border: 1px solid #eee;
+	margin: 10px;
+	box-sizing: border-box;
+	height: 100px;
+}
+
+footer {
+	background: #172135;
+	color: #fff;
+	margin-bottom: 40px;
+}
+footer div#foot{
+	padding:35px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+	animation-delay: 
+
+}
+footer a:hover{
+	text-decoration: underline;
+	font-size: 18px;
+}
+footer a.l{
+		margin:40px;
+
+}
+footer i{
+	border:1px solid #fff;
+	border-radius: 50%;
+	padding:15px;
+	margin:10px;
+}
+div#foot span{
+	margin :0 100px;
+}
+
+.clearfix {
+	clear: both;
+}
